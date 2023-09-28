@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EZshop"
+        tools:targetApi="31">
+        <activity
+            android:name=".AppliancesPopular"
+            android:exported="false" />
+        <activity
+            android:name=".AppliancesRecommended"
+            android:exported="false" />
+        <activity
+            android:name=".appliance_prod_12"
+            android:exported="false" />
+        <activity
+            android:name=".appliance_prod_11"
+            android:exported="false" />
+        <activity
+            android:name=".appliance_prod_10"
+            android:exported="false" />
+        <activity
+            android:name=".appliance_prod_9"
+            android:exported="false" />
+        <activity
+            android:name=".appliance_prod_8"
+            android:exported="false" />
+        <activity
+            android:name=".appliance_prod_7"
+            android:exported="false" />
+        <activity
+            android:name=".appliance_prod_6"
+            android:exported="false" />
+        <activity
+            android:name=".appliance_prod_5"
+            android:exported="false" />
+        <activity
+            android:name=".appliance_prod_4"
+            android:exported="false" />
+        <activity
+            android:name=".appliance_prod_3"
+            android:exported="false" />
+        <activity
+            android:name=".appliance_prod_2"
+            android:exported="false" />
+        <activity
+            android:name=".appliance_prod_1"
+            android:exported="false" />
+        <activity
+            android:name=".ChildrenPopular"
+            android:exported="false" />
+        <activity
+            android:name=".ChildrenRecommended"
+            android:exported="false" />
+        <activity
+            android:name=".children_prod_12"
+            android:exported="false" />
+        <activity
+            android:name=".children_prod_11"
+            android:exported="false" />
+        <activity
+            android:name=".children_prod_10"
+            android:exported="false" />
+        <activity
+            android:name=".children_prod_9"
+            android:exported="false" />
+        <activity
+            android:name=".children_prod_8"
+            android:exported="false" />
+        <activity
+            android:name=".children_prod_7"
+            android:exported="false" />
+        <activity
+            android:name=".children_prod_6"
+            android:exported="false" />
+        <activity
+            android:name=".children_prod_5"
+            android:exported="false" />
+        <activity
+            android:name=".children_prod_4"
+            android:exported="false" />
+        <activity
+            android:name=".children_prod_3"
+            android:exported="false" />
+        <activity
+            android:name=".children_prod_2"
+            android:exported="false" />
+        <activity
+            android:name=".children_prod_1"
+            android:exported="false" />
+        <activity
+            android:name=".prod_12"
+            android:exported="false" />
+        <activity
+            android:name=".prod_11"
+            android:exported="false" />
+        <activity
+            android:name=".prod_10"
+            android:exported="false" />
+        <activity
+            android:name=".prod_9"
+            android:exported="false" />
+        <activity
+            android:name=".prod_8"
+            android:exported="false" />
+        <activity
+            android:name=".prod_7"
+            android:exported="false" />
+        <activity
+            android:name=".baby_prod_12"
+            android:exported="false" />
+        <activity
+            android:name=".baby_prod_11"
+            android:exported="false" />
+        <activity
+            android:name=".baby_prod_10"
+            android:exported="false" />
+        <activity
+            android:name=".baby_prod_9"
+            android:exported="false" />
+        <activity
+            android:name=".baby_prod_8"
+            android:exported="false" />
+        <activity
+            android:name=".baby_prod_7"
+            android:exported="false" />
+        <activity
+            android:name=".baby_prod_6"
+            android:exported="false" />
+        <activity
+            android:name=".baby_prod_5"
+            android:exported="false" />
+        <activity
+            android:name=".baby_prod_4"
+            android:exported="false" />
+        <activity
+            android:name=".baby_prod_3"
+            android:exported="false" />
+        <activity
+            android:name=".baby_prod_2"
+            android:exported="false" />
+        <activity
+            android:name=".baby_prod_1"
+            android:exported="false" />
+        <activity
+            android:name=".BabyPopular"
+            android:exported="false" />
+        <activity
+            android:name=".BabyRecommended"
+            android:exported="false" />
+        <activity
+            android:name=".women_prod_12"
+            android:exported="false" />
+        <activity
+            android:name=".women_prod_11"
+            android:exported="false" />
+        <activity
+            android:name=".women_prod_10"
+            android:exported="false" />
+        <activity
+            android:name=".women_prod_9"
+            android:exported="false" />
+        <activity
+            android:name=".women_prod_8"
+            android:exported="false" />
+        <activity
+            android:name=".women_prod_7"
+            android:exported="false" />
+        <activity
+            android:name=".WomenRecommended"
+            android:exported="false" />
+        <activity
+            android:name=".WomenPopular"
+            android:exported="false" />
+        <activity
+            android:name=".women_prod_6"
+            android:exported="false" />
+        <activity
+            android:name=".women_prod_5"
+            android:exported="false" />
+        <activity
+            android:name=".women_prod_4"
+            android:exported="false" />
+        <activity
+            android:name=".women_prod_3"
+            android:exported="false" />
+        <activity
+            android:name=".women_prod_2"
+            android:exported="false" />
+        <activity
+            android:name=".women_prod_1"
+            android:exported="false" />
+        <activity
+            android:name=".MenPopular"
+            android:exported="false" />
+        <activity
+            android:name=".MenRecommended"
+            android:exported="false" />
+        <activity
+            android:name=".prod_6"
+            android:exported="false" />
+        <activity
+            android:name=".prod_5"
+            android:exported="false" />
+        <activity
+            android:name=".prod_4"
+            android:exported="false" />
+        <activity
+            android:name=".prod_3"
+            android:exported="false" />
+        <activity
+            android:name=".prod_2"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateProfile"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".UploadProfilePic"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".UserLikes"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".prod_1"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".BuyProd"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".Settings"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".Profile"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".ChildrenSection"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".AppliancesSection"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".BabySection"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".WomenSection"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".MenSection"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".ShopActivity"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".ScreenActivity"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".Log_InActivity"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.EZshop.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.EZshop.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"
+                    android:host="www.ezshop.com"
+                    android:pathPrefix="/ez"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:host="www.ezshop.com"
+                    android:pathPrefix="/ez"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

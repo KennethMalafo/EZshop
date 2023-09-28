@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EZshop</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="dummyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        elit magna, tempus ac tincidunt a, pharetra vel nulla.
+        Etiam malesuada cursus lacus.
+        Curabitur consectetur vel augue sit amet imperdiet.
+        Integer lacus nibh, cursus in odio nec, finibus bibendum urna. Nulla nec semper ante.
+        Aliquam ac dui lectus.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+        Proin pellentesque urna sed nibh gravida aliquet. Vivamus pellentesque, ligula vitae ultricies maximus, elit diam suscipit lacus, sed hendrerit purus justo in felis.
+        Curabitur accumsan vulputate nibh.
+        Praesent eu mollis velit.</string>
+
+</resources>

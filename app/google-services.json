@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "854558904479",
+    "project_id": "ezshop-49e55",
+    "storage_bucket": "ezshop-49e55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854558904479:android:f9b50ca6cc740b8f7ad2aa",
+        "android_client_info": {
+          "package_name": "com.ezshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854558904479-b07qam6t4ften8dp5hqmejs2su5o3ifh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt6WbSc1NconKIQptFIqeU5ZYR8zVh1Ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854558904479-b07qam6t4ften8dp5hqmejs2su5o3ifh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

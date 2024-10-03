@@ -55,12 +55,9 @@ public class Settings extends AppCompatActivity {
 
         //On Click Listener for Uploading Profile Pic
         Profile = findViewById(R.id.edit_profile);
-        Profile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Settings.this, UploadProfilePic.class);
-                startActivity(intent);
-            }
+        Profile.setOnClickListener(v -> {
+            Intent intent = new Intent(Settings.this, UploadProfilePic.class);
+            startActivity(intent);
         });
         firebaseAuth = FirebaseAuth.getInstance();
         FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
@@ -96,7 +93,10 @@ public class Settings extends AppCompatActivity {
                     Gender.setText(gender);
                     //Set User Profile Pic
                     Uri uri = firebaseUser.getPhotoUrl();
-                    Picasso.get().load(uri).into(Profile);
+                            Picasso
+                            .get()
+                            .load(uri)
+                            .into(Profile);
                 } else {
                     Toast.makeText(Settings.this, "No Uploaded Image!", Toast.LENGTH_SHORT).show();
                 }

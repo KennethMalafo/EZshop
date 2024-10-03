@@ -8,8 +8,7 @@
     android:orientation="vertical"
     tools:context=".MenSection"
     android:background="@color/extra"
-    android:fitsSystemWindows="true"
-    tools:openDrawer="start">
+    android:fitsSystemWindows="true">
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/MenSec_navigation"
